@@ -23,6 +23,17 @@ def obter_inteiro_positivo(label: str):
         print('Entrada inválida!\nO número precisa ser um inteiro positivo') 
 
 
+def obter_inteiro_maior_que_0(label: str):
+    
+    while True:
+        num = obter_num_inteiro(label)
+
+        if num > 0:
+            return num
+
+        print('Entrada inválida!\nO número precisa ser um inteiro maior que 0') 
+
+
 def grande_espaco(qtd_linhas):
     for i in range(qtd_linhas):
         print( )
@@ -64,6 +75,17 @@ def obter_real_positivo(label: str):
 
         print('Entrada inválida!\nO número precisa ser um real positivo') 
 
+def obter_real_maior_que_0(label: str):
+    
+    while True:
+        num = obter_num_real(label)
+
+        if num > 0:
+            return num
+
+        print('Entrada inválida!\nO número precisa ser um real maior que 0') 
+
+
 
 def obter_real_no_intervalo(label: str, limite_min: float, limite_max: float):
     while True:
@@ -100,3 +122,5 @@ def converter_maisculo(texto):
         novo_texto += caractere 
             
     return novo_texto          
+
+
