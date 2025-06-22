@@ -5,7 +5,11 @@ def obterNumInteiro(label: str):
     except ValueError:
         print('Entrada invalida!\nO número inserido deve ser um inteiro válido')
         return obterNumInteiro(label)
-   
+    
+
+def eh_divisor(candidato_divisor, num):
+    return num % candidato_divisor == 0
+
     
 def obterNumInteiroLimiteMin(label: str, limiteMin: int):
     num = obterNumInteiro(label)
@@ -55,3 +59,30 @@ def obterNumInteiroPositivo(label: str):
         print('O número inserido deve ser um inteiro positivo') 
         return obterNumInteiroPositivo(label)
          
+
+def obter_inteiro_maior_que_0(label):
+
+    while True:
+        num = obterNumInteiro(label)
+
+        if num > 0:
+            return num
+
+        print(f'Entrada inválida!\nO número inserido deve ser maior que 0')         
+
+
+def obter_num_real_na_faixa(label, limite_min, limite_max):
+
+    while True:
+        num = obterNumReal(label)
+
+        if num >= limite_min and num <= limite_max:
+            return num
+        
+        print(f'Número inválido!\nO número inserido deve estar entre {limite_min} a {limite_max}')
+
+
+    
+    
+
+
