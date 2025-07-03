@@ -25,7 +25,8 @@ def main():
     n = obter_inteiro('N caracteres: ')
     exibir_palavras_com_mais_de_n_caractere(arquivo, n)
 
-
+if __name__ == "__main__":
+    main()
 
      
 
