@@ -42,21 +42,3 @@
 # Três valores: 5 é o início, 10 é o fim (não incluso), e 2 é o passo.,
 # Resultado: 5, 7, 9
 
-
-
-
-    
-    
-
-
-#0, 1, 1, 2, 3, 5, 8    
-
-
-
-#6 digitos
-
-#315445
-
-
-    
-
