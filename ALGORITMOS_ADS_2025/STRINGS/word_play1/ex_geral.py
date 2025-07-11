@@ -50,7 +50,8 @@ def exibir_escolha(opcao, arquivo):
 
 
 def main():
-      arquivo = open(r"C:\Users\thali\OneDrive\Área de Trabalho\ALGORITMOS_ADS_2025\STRINGS\br-sem-acentos.txt")
+      # arquivo = open(r"C:\Users\thali\OneDrive\Área de Trabalho\ALGORITMOS_ADS_2025\STRINGS\br-sem-acentos.txt")
+      arquivo = open(r'C:\Users\thali\OneDrive\Área de Trabalho\ads\ALGORITMOS_ADS_2025\STRINGS\br-sem-acentos.txt')
       opcao = menu()
       exibir_escolha(opcao, arquivo)
       
