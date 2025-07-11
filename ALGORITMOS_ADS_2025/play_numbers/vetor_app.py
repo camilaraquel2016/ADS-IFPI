@@ -39,7 +39,7 @@ def main():
     limpar_tela()
 
     while True:
-        opcao = obter_opcao(menu_geral(), 1, 16)
+        opcao = obter_opcao(menu_geral(), 1, 14)
         limpar_tela()
         
         match opcao:     
@@ -74,6 +74,8 @@ def main():
                 salvar_vetor_no_arquivo(vetor, caminho_para_salvar) 
                 print(f'Programa encerrado com sucesso!\nFoi um prazer ter você aqui, {nome}')
                 break
+            case _:
+                print('Opção inválida')
 
         input(' \nEnter para continuar...')
         limpar_tela()    
