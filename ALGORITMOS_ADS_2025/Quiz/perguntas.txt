@@ -1,0 +1,7 @@
+1#Qual a capital do Brasil?#A) São paulo*B)Brasília*C) Rio de Janeiro*D) Belo Horizonte#B
+2#Quem pintou a Mona Lisa?#A) Van Gogh*B) Michelangelo*C) Leonardo da Vinci*D) Picasso#C
+3#Qual é o maior planeta do sistema solar?#A) Terra*B) Saturno*C) Urano*D) Júpiter#D
+4#Qual a linguagem mais usada em ciência de dados?#A) C++*B) Java*C) Python*D) Ruby#C
+5#Qual desses elementos é um gás nobre?#A) Hidrogênio*B) Hélio*C) Nitrogênio*D) Oxigênio#B 
+
+

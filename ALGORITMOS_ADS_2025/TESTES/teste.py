@@ -118,7 +118,7 @@ def limpar_tela():
 
 def exibir_boas_vindas():
     print('\n' + '=' * 50)
-    print('🎮  Bem-vindo(a) ao'.center(50))
+    print('🎮 Bem-vindo(a) ao'.center(50))
     print('🧠  PLAY NUMBERS  🧠'.center(50))
     print('=' * 50 + '\n')
 
